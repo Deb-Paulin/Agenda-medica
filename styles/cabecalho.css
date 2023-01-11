@@ -1,0 +1,18 @@
+
+.cabecalho__container {
+    display: flex;
+    background-color: var(--branco);
+    margin: 20px;
+}
+
+.cabecalho__horario {
+    font-weight: 400;
+    padding: 0 8px;
+    color: var(--cinza);
+}
+
+.cabecalho__icones {
+    position: relative;
+    left: 14rem;
+    padding: 0 8px;
+}
