@@ -1,0 +1,75 @@
+.consultas {
+    padding: 20px 20px 10px;
+    margin: 20px 30px;  
+    background-color: var(--branco);
+    border-radius: 8px;
+    
+}
+ 
+ .consultas__data {
+    font-size: 16px;
+    color: var(--cinza-principal);
+    padding: 14px;
+}
+ 
+ .consultas__nome {
+    color: var(--cinza-principal);
+    padding: 10px 0 0 10px;
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+}
+
+.consultas__informacoes {
+    display: flex;
+    position: relative;
+    left: 36px;
+    bottom: 20px;
+    padding: 0 10px;
+}
+
+.consultas__mensagem {
+    position: fixed;
+    left: 16rem;
+    padding: 0 80px;
+}
+ 
+ .consultas__modelo {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--cinza-secundario);
+    padding: 10px;
+}
+ 
+ .consultas__linha {
+    display: flex;
+    position: relative;
+    bottom: 5px;
+    margin-left: -8px;
+}
+ .consultas__horario {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--cinza-secundario);
+    padding: 0 10px;
+}
+ 
+ .consultas__tipo-video, .consultas__tipo-audio {
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 14px 20px;
+    margin: 8px;
+}
+
+.consultas__tipo-video {
+    background-color: var(--laranja);
+    color: var(--branco);
+    border: none;
+}
+
+.consultas__tipo-audio {
+    background-color: var(--branco);
+    border: 1.5px solid var(--cinza-claro);
+    color: var(--cinza-principal);
+}
