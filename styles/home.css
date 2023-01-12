@@ -1,0 +1,23 @@
+.home {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+  
+  .home__foto {
+    padding: 0 12px 0 0;
+}
+  
+  .home__titulo {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--cinza-principal);
+    padding: 5px 0;
+}
+  
+  .home__texto {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza-secundario);
+    padding: 3px 0;
+}
