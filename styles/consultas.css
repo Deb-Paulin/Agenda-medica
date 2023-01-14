@@ -54,7 +54,7 @@
     padding: 0 10px;
 }
  
- .consultas__tipo-video, .consultas__tipo-audio {
+ .consultas__botao-video, .consultas__botao-audio {
     font-size: 14px;
     font-weight: 500;
     border-radius: 8px;
@@ -62,14 +62,23 @@
     margin: 8px;
 }
 
-.consultas__tipo-video {
+.consultas__botao-video {
     background-color: var(--laranja);
     color: var(--branco);
     border: none;
 }
 
-.consultas__tipo-audio {
+.consultas__botao-audio {
     background-color: var(--branco);
     border: 1.5px solid var(--cinza-claro);
     color: var(--cinza-principal);
+}
+
+.consultas__botao-endereco {
+    background-color: var(--azul);
+    color: var(--branco);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 100px;
+    margin: 10px 8px;
 }
