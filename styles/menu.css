@@ -1,0 +1,49 @@
+.menu__icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--branco);
+    border-radius: 12px 12px 0px 0px;
+    justify-content: center;
+}
+
+.menu__lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 12px;
+}
+
+img.menu__icone {
+    width: 20px;
+    height: 20px;
+    padding: 10px 20px;
+}
+
+.menu__texto {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--cinza-principal);
+}
+
+.menu__texto-consultas {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--azul);
+}
+
+@media screen and (min-width: 1024px) {
+    .menu__icones {
+        position: relative;
+        justify-content: center;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .menu__icones {
+        position: relative;
+        justify-content: center;
+        padding: 10px;
+    }
+}
