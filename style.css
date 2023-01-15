@@ -16,7 +16,7 @@
 }
 
 body {
-    background-color: var(--azul);
+    background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
     font-size: 14px;
     font-weight: 700;
