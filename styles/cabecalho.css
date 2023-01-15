@@ -1,8 +1,8 @@
-
 .cabecalho__container {
     display: flex;
     background-color: var(--branco);
     padding: 10px;
+    width: 110%;
 }
 
 .cabecalho__horario {
@@ -15,4 +15,16 @@
     position: relative;
     left: 16rem;
     padding: 0 8px;
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho__container {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+   .cabecalho__container {
+        display: none;
+    }
 }
