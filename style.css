@@ -1,4 +1,7 @@
 @import url("styles/cabecalho.css");
+@import url("styles/home.css");
+@import url("styles/consultas.css");
+@import url("styles/menu.css");
 
 :root {
     --cinza-principal: #464646;
@@ -12,7 +15,7 @@
     --fonte-principal:"Montserrat";
 }
 
-.body {
+body {
     background-color: var(--azul);
     font-family: var(--fonte-principal);
     font-size: 14px;
