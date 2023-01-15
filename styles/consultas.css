@@ -3,7 +3,6 @@
     margin: 20px 30px;  
     background-color: var(--branco);
     border-radius: 8px;
-    
 }
  
  .consultas__data {
@@ -46,7 +45,7 @@
     display: flex;
     position: relative;
     bottom: 5px;
-    margin-left: -8px;
+    width: 100%;
 }
  .consultas__horario {
     font-size: 12px;
@@ -60,7 +59,7 @@
     font-weight: 500;
     border-radius: 8px;
     padding: 14px 20px;
-    margin: 8px;
+    margin: 10px 8px;
 }
 
 .consultas__botao-video {
@@ -84,5 +83,29 @@
     position: center;
     border-radius: 8px;
     padding: 15px 100px;
-    margin: 10px 8px;
+    margin: 10px 12px;
+}
+
+@media screen and (min-width: 1024px) {
+    .consultas {
+     display: inline-block;
+     flex-direction: column; 
+     margin: 0 20px 60px
+    }
+   
+    .consultas__data {
+     display: flex;
+    }
+}
+   
+   @media screen and (min-width: 1728px) {
+   .consultas {
+     display: inline-block;
+     flex-direction: column; 
+     margin: 0 20px 60px
+    }
+   
+    .consultas__data {
+     display: flex;
+    }
 }
